@@ -1,0 +1,9 @@
+function FooterEdit({children,Tab="a"}) {
+  return (
+    <Tab className="cursor-pointer">
+      {children}
+   </Tab>
+  )
+}
+
+export default FooterEdit
